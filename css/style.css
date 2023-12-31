@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #24353f;
+}
+.main-content {
+  font-family: Titillium;
+}
+.login-section {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.login-section h1 {
+  color: #17a2b8;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 500;
+}
+.login-section input {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+.login-section input::placeholder {
+  color: rgb(182, 182, 182) !important;
+}
+.login-section input:focus {
+  box-shadow: 0 0 0 0 transparent !important;
+}
+.login-section a {
+  text-decoration: none;
+  transition: all 0.4s;
+}
+.login-section a:hover {
+  text-decoration: underline;
+}
